@@ -15,7 +15,6 @@ def check_password(password):
     else:
         print('Strong password')
 
-#Dpassword = input('Your password:')
 loc = input("Path to file:")
 file = open(loc, "r")
 while True:
